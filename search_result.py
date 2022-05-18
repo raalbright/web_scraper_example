@@ -1,7 +1,3 @@
-from dataclasses import dataclass
-
-
-@dataclass
 class SearchEntry:
     def __init__(self, title: str, price: str):
         self.title = title
